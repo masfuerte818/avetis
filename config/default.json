@@ -1,0 +1,5 @@
+{
+    "port": 5000,
+    "pswd": "HC3HA2TKaGe289V7",
+    "mongoUri": "mongodb+srv://masfuerte:HC3HA2TKaGe289V7@cluster0.m2jrt.mongodb.net/msgSanta?retryWrites=true&w=majority"
+}
