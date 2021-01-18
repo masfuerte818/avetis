@@ -11,6 +11,7 @@ router.post('/msg',
     ]
     , async (req, res) => {
         try {
+            console.log('back body:',req.body);
             const { name, lastName, email, phone, giftPack, description } = req.body;
             if (!name)
                 return res.status(400).json({ message: 'Name is required' });
